@@ -1,0 +1,47 @@
+/* element selector */
+body {
+    background-color: rgb(43, 75, 179);
+    font-family: Times New Roman;
+}
+
+p{
+    color: rgb(255, 255, 255);
+}
+h3{
+    color: rgb(255, 255, 255);
+}
+/* class selector */
+.bg-warning{
+    background-color: yellow;
+}
+.text-success{
+    color: rgb(133, 95, 173);
+}
+/* id selector */
+#h5 {
+    color: aqua;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(33, 10, 241);
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.rounded {
+    border-radius: 20px;
+}
+
+
+button {
+border-radius: 1px;
+border: 1px solid white;
+background-color: rgb(255, 255, 255);
+color: rgb(3, 3, 3);
+padding: 5px;
+width: 5%;
+}
